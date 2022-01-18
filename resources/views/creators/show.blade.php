@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" >
     
 </head>
+<br>
 <body>
     <div class="container my-4">
         <div class="row">
