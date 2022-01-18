@@ -22,4 +22,10 @@ class CreatorController extends Controller
             new CreatorAllRenderResource(Creator::query()->paginate())
         );
     }
+    public function show($id){
+        $data = Creator::findOrFail($id);
+        return Response::json(
+            new CreatorAllRenderResource($data)
+        );
+    }
 }
