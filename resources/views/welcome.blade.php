@@ -14,7 +14,8 @@
             <div class="col-md-10">
                 <div class="card shadow">
                     <div class="card-header">
-                        <h3>Hello Home Page</h3>
+                        <h3>
+                            Home Page </h3>
                     </div>
                     <div class="card-body">
                         <a href="{{ route('creator.index') }}" class="mr-2">Creator</a>
