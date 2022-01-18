@@ -15,7 +15,7 @@
                 <div class="card shadow">
                     <div class="card-header">
                         <h3>
-                            Home Page </h3>
+                            Home page </h3>
                     </div>
                     <div class="card-body">
                         <a href="{{ route('creator.index') }}" class="mr-2">Creator</a>
